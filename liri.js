@@ -1,15 +1,12 @@
 require("dotenv").config();
-var axios = require("axios");
 
 var get_movie = require('./movies.js').get_movie;
-
-var keys = require("./keys.js");
-//var spotify = new Spotify(keys.spotify);
-//console.log(keys.spotify.secret);
-//console.log(process.env.SPOTIFY_ID);
+var getSong = require('./music.js').getSong;
+var getConcert = require('./concerts.js').getConcert;
 
 var command = process.argv[2];
 var parameter = process.argv[3];
+
 
 switch (command) {
     
@@ -18,14 +15,14 @@ switch (command) {
         get_movie(parameter);
     break;
 
-    case 'movie-this':
+    case 'spotify-this-song':
         console.log('-----------');
-        console.log('command: ' + command)
+        getSong(parameter);
     break;
     
-    case 'movie-this':
+    case 'concert-this':
         console.log('-----------');
-        console.log('command: ' + command)
+        getConcert(parameter);
     break;
 
     default:
