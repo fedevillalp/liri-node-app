@@ -15,16 +15,17 @@ function getConcert(concert){
                 console.log('Venue Name: ' + element.venue.name);
                 console.log('Venue City: ' + element.venue.city);
                 console.log('Venue State: ' + element.venue.region);
-                console.log('Date: '+ moment(element.datetime).format('LLLL'));
+                console.log('Date: '+ moment(element.datetime).format('MM/DD/YYYY'));
                 console.log('-------------------');
             });
 
-            return response;
         }
     ); 
     
 }
 
 module.exports = {
-    getConcert: getConcert
+    getConcert: getConcert,
+
+    
 }

@@ -9,6 +9,10 @@ var spotify = new Spotify({
 
 function getSong(song_name){
 
+    if(!song_name){
+        var song_name = 'Ace of Base';
+    }
+
     spotify
             .search({ type: 'track', query: song_name })
             .then(function(response) {
