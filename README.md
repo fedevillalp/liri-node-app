@@ -7,26 +7,29 @@ This application runs on the CLI and it can take in one of the following 4 comma
 
     * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
+    ```
      * Name of the venue
 
      * Venue location
 
      * Date of the Event (uses moment to format this as "MM/DD/YYYY")
-
+    ```
 
 2. `node liri.js spotify-this-song + <your song name>`
 
    * This shows the following information about the song in the terminal/bash window:
 
-     * Artist(s)
+        ```
+        * Artist(s)
 
-     * The song's name
+        * The song's name
 
-     * A preview link of the song from Spotify
+        * A preview link of the song from Spotify
 
-     * The album that the song is from
+        * The album that the song is from
 
-   * If no song is provided then the program will default to "The Sign" by Ace of Base.
+        * If no song is provided then the program will default to "The Sign" by Ace of Base.
+        ```
 
    * It utilizes the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
 
