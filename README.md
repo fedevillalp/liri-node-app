@@ -32,7 +32,7 @@ This application runs on the CLI and it can take in one of the following 4 comma
         ```
 
    * Example:
-[!results](https://github.com/fedevillalp/liri-node-app/blob/master/Images/spotify-this-song.png)
+[!results 1](https://github.com/fedevillalp/liri-node-app/blob/master/Images/spotify-this-song.png)
 
 
      
@@ -57,7 +57,7 @@ This application runs on the CLI and it can take in one of the following 4 comma
 
    * The `axios` package is used to retrieve data from the OMDB API. 
 * Example:
-[!results](https://github.com/fedevillalp/liri-node-app/blob/master/Images/movie-this.png)
+[!results 2](https://github.com/fedevillalp/liri-node-app/blob/master/Images/movie-this.png)
    
 
 4. `node liri.js do-what-it-says`
