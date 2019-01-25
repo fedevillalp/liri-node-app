@@ -14,6 +14,8 @@ This application runs on the CLI and it can take in one of the following 4 comma
 
      * Date of the Event (uses moment to format this as "MM/DD/YYYY")
     ```
+* Example:
+![Results Image](https://github.com/fedevillalp/liri-node-app/blob/master/Images/concert-this.png)
 
 2. `node liri.js spotify-this-song + <your song name>`
 
