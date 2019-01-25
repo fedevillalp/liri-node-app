@@ -31,7 +31,7 @@ This application runs on the CLI and it can take in one of the following 4 comma
         * If no song is provided then the program will default to "The Sign" by Ace of Base.
         ```
 
-   * It utilizes the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
+   
 
 
      
