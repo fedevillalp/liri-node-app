@@ -31,7 +31,8 @@ This application runs on the CLI and it can take in one of the following 4 comma
         * If no song is provided then the program will default to "The Sign" by Ace of Base.
         ```
 
-   
+   * Example:
+[!results](https://github.com/fedevillalp/liri-node-app/blob/master/Images/spotify-this-song.png)
 
 
      
