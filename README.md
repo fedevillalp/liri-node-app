@@ -63,6 +63,6 @@ This application runs on the CLI and it can take in one of the following 4 comma
    * Using the `fs` Node package, LIRI can take the text inside of random.txt and then use it to call one of LIRI's commands as described above.
 
     * Example: 
-   (https://github.com/fedevillalp/liri-node-app/blob/master/Images/do-what-it-says.png)
+   ![Results Image](https://github.com/fedevillalp/liri-node-app/blob/master/Images/do-what-it-says.png)
 
 
