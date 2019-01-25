@@ -3,7 +3,7 @@
 
 This application runs on the CLI and it can take in one of the following 4 commands + one parameter:
 
-   * 1. `node liri.js concert-this + <your band or artist name>`
+1. `node liri.js concert-this + <your band or artist name>`
 
     * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -14,7 +14,7 @@ This application runs on the CLI and it can take in one of the following 4 comma
      * Date of the Event (uses moment to format this as "MM/DD/YYYY")
 
 
-   * 2. `node liri.js spotify-this-song + <your song name>`
+2. `node liri.js spotify-this-song + <your song name>`
 
    * This shows the following information about the song in the terminal/bash window:
 
@@ -33,20 +33,20 @@ This application runs on the CLI and it can take in one of the following 4 comma
 
      
 
-   * `node liri.js movie-this + <your movie>`
+3. `node liri.js movie-this + <your movie>`
 
     * This outputs the following information to the terminal/bash window:
 
-     ```
-       * Title of the movie.
-       * Year the movie came out.
-       * IMDB Rating of the movie.
-       * Rotten Tomatoes Rating of the movie.
-       * Country where the movie was produced.
-       * Language of the movie.
-       * Plot of the movie.
-       * Actors in the movie.
-     ```
+        ```
+        * Title of the movie.
+        * Year the movie came out.
+        * IMDB Rating of the movie.
+        * Rotten Tomatoes Rating of the movie.
+        * Country where the movie was produced.
+        * Language of the movie.
+        * Plot of the movie.
+        * Actors in the movie.
+        ```
 
    * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
