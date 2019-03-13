@@ -9,7 +9,6 @@ var command = process.argv[2];
 var parameter = process.argv[3];
 
 
-
     switch (command) {
         
         case 'movie-this':

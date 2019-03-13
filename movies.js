@@ -16,7 +16,6 @@ function get_movie(movie_name){
         console.log("Actors: " + response.data.Actors);
         console.log('-------------------');
         //console.log(response.data.Ratings[0].Value);
-        
     }
   ); 
 
